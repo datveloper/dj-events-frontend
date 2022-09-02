@@ -1,10 +1,28 @@
+import Link from "next/link";
 import Layout from "@components/Layout";
+import { API_URL } from "@config/index";
+import { EventItem } from "@components/EventItem";
 
-const EventsPage = () => {
+export default function EventdPage({ events }) {
   return (
-    <Layout>
-      <h1>My Events</h1>
-    </Layout>
+    <div>
+      <Layout>
+        <h1>Events</h1>
+        {events.length === 0 && <h3>No events to show</h3>}
+        {events.map((evt) => (
+          <EventItem key={evt.id} evt={evt} />
+        ))}
+        <Link href="/about">about</Link>
+      </Layout>
+    </div>
   );
-};
-export default EventsPage;
+}
+
+export async function getStaticProps() {
+  const res = await fetch(`${API_URL}/api/events`);
+  const events = await res.json();
+  return {
+    props: { events },
+    revalidate: 10,
+  };
+}

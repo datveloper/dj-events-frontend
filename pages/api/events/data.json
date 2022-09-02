@@ -1,0 +1,40 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "name": "Lorem Ipsum is simply dummy text of the printing",
+      "slug": "lorem-ipsum-is-simply-dummy-text-of-the-printing",
+      "venue": "Horizon Club",
+      "address": "Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia",
+      "performers": "DJ Manny Duke",
+      "date": "June 09, 2022",
+      "time": "10:00 PM EST",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "image": "/images/sample/event1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "It is a long established fact that a reader",
+      "slug": "it-is-a-long-established-fact-that-a-reader",
+      "venue": "Horizon Club",
+      "address": "Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia",
+      "performers": "Dat",
+      "date": "June 09, 2022",
+      "time": "10:00 PM EST",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "image": "/images/sample/event2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Letraset sheets containing Lorem Ipsum passages",
+      "slug": "letraset-sheets-containing-lorem-ipsum-passages",
+      "venue": "Horizon Club",
+      "address": "Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia",
+      "performers": "Hannn",
+      "date": "June 09, 2022",
+      "time": "10:00 PM EST",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+      "image": "/images/sample/event3.jpg"
+    }
+  ]
+}
